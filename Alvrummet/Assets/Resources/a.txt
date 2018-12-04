@@ -1,0 +1,10 @@
+Klicka på badankan@badAnka
+Klicka på ankan@anka
+/END
+Placera alla frågor före /END.
+Varje fråga separeras från sitt svar med @.
+Så för frågan "Klicka på anakan" är svaret anka.
+
+Klickbara modeller
+1. badAnka
+2. anka
