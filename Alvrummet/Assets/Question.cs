@@ -37,10 +37,11 @@ public class Question{
 
         foreach (string r in s.Split('\n'))
         {
-            if (!r.Equals("/END"))
+            if (r.Equals("/END"))
             {
-                questions.Add(r);
+                break;
             }
+            questions.Add(r);
         }
 
     }
