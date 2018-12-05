@@ -8,8 +8,7 @@ public class Question{
     int noQ;
 
     public Question(){
-        questions.Add("Klicka på badankan@badAnka");
-        questions.Add("Klicka på ankan@anka");
+        loadQuestions();
 
         noQ = questions.Count;
     }
