@@ -188,6 +188,7 @@
     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Oswald-Bold - OFL.txt" />
     <None Include="Assets\PolyToolkit\Shaders\PolyToolkitPbrBlendDoubleSided.shader" />
     <None Include="Assets\PolyToolkit\Internal\tbt\Brushes\Basic\WigglyGraphite\WigglyGraphiteDoubleSided.shader" />
+    <None Include="Assets\Resources\q.txt" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
     <None Include="Assets\PolyToolkit\ThirdParty\Noise\Shaders\Noise.cginc" />
     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
@@ -234,16 +235,16 @@
     <None Include="Assets\PolyToolkit\Internal\tbt\Brushes\Shared\Shaders\StandardSingleSided.shader" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
     <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>/Users/hyttring/Documents/GitHub/LEAP-MOTION/Alvrummet/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+      <HintPath>/Users/hyttring/Documents/GitHub/Ariel/Alvrummet/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>/Users/hyttring/Documents/GitHub/LEAP-MOTION/Alvrummet/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>/Users/hyttring/Documents/GitHub/Ariel/Alvrummet/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>/Users/hyttring/Documents/GitHub/LEAP-MOTION/Alvrummet/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>/Users/hyttring/Documents/GitHub/Ariel/Alvrummet/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>/Users/hyttring/Documents/GitHub/LEAP-MOTION/Alvrummet/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>/Users/hyttring/Documents/GitHub/Ariel/Alvrummet/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>/Applications/Unity/Hub/Editor/2018.2.16f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -444,7 +445,7 @@
       <HintPath>/Applications/Unity/Hub/Editor/2018.2.16f1/Unity.app/Contents/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
-      <HintPath>/Users/hyttring/Documents/GitHub/LEAP-MOTION/Alvrummet/Assets/PolyToolkit/ThirdParty/Json-NET-for-Unity/Assemblies/Standalone/Newtonsoft.Json.dll</HintPath>
+      <HintPath>/Users/hyttring/Documents/GitHub/Ariel/Alvrummet/Assets/PolyToolkit/ThirdParty/Json-NET-for-Unity/Assemblies/Standalone/Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Analytics">
       <HintPath>/Users/hyttring/Library/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll</HintPath>
