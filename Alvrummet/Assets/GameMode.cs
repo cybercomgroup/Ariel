@@ -24,12 +24,6 @@ public class GameMode
 
 
 
-
-    string s;
-
-
-
-
     // 0, ej svar; 1, rätt; 2, fel.
     public int qState = 0;
 
@@ -39,18 +33,7 @@ public class GameMode
         pointsDisp.SetActive(false);
         questionImg.SetActive(false);
 
-        TextAsset txtAsset = (TextAsset)Resources.Load("a");
-        s = txtAsset.text;
-
-
-
-        foreach (string r in s.Split('\n'))
-        {
-            if (r.Equals("/END"))
-            {
-                Debug.Log(r);
-            }
-        }
+       
     }
 
 
