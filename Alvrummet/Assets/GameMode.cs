@@ -23,35 +23,14 @@ public class GameMode
     public bool questionAsked = false;
 
 
-
-
-    string s;
-
-
-
-
     // 0, ej svar; 1, rätt; 2, fel.
     public int qState = 0;
 
-    public GameMode()
-    {
+    public GameMode(){
         sB.SetActive(false);
         pointsDisp.SetActive(false);
         questionImg.SetActive(false);
-
-        TextAsset txtAsset = (TextAsset)Resources.Load("a");
-        s = txtAsset.text;
-
-
-
-        foreach (string r in s.Split('\n'))
-        {
-            if (r.Equals("/END"))
-            {
-                Debug.Log(r);
-            }
-        }
-    }
+     }
 
 
     public void clickModel(string name)
@@ -77,16 +56,14 @@ public class GameMode
 
     }
 
-    public void clickGUI(string name)
-    {
+    public void clickGUI(string name){
 
         if (name.Equals("startButton") && gameStarted == false)
         {
             StartGame();
         }
 
-        if (name.Equals("questionIMG") || name.Equals("questionText"))
-        {
+        if(name.Equals("questionIMG") || name.Equals("questionText")){
             questionImg.SetActive(false);
             questionAsked = true;
         }
@@ -95,15 +72,13 @@ public class GameMode
 
 
 
-    public void showQuestion()
-    {
-        questionImg.SetActive(true);
-        questionImg.transform.GetChild(0).GetComponent<Text>().text = "Fråga " + (sn.getCurr() + 1) + "\n" + sn.GetQ();
+    public void showQuestion(){
+            questionImg.SetActive(true);
+            questionImg.transform.GetChild(0).GetComponent<Text>().text = "Fråga " + (sn.getCurr() + 1) + "\n" + sn.GetQ();
 
     }
 
-    public void getNextQuestion()
-    {
+    public void getNextQuestion(){
         if (!sn.nextQuestion())
             gameEnd();
     }
@@ -135,7 +110,7 @@ public class GameMode
 
     }
 
-
+  
 
 
 
