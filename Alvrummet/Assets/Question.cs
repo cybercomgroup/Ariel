@@ -8,7 +8,8 @@ public class Question{
     int noQ;
 
     public Question(){
-        loadQuestions();
+        questions.Add("Klicka på badankan@badAnka");
+        questions.Add("Klicka på ankan@anka");
 
         noQ = questions.Count;
     }
@@ -29,21 +30,6 @@ public class Question{
         return l.Split('@')[1];
     }
 
-    public void loadQuestions(){
-        TextAsset txtAsset = (TextAsset)Resources.Load("q");
-        string s = txtAsset.text;
-
-
-
-        foreach (string r in s.Split('\n'))
-        {
-            if (!r.Equals("/END"))
-            {
-                questions.Add(r);
-            }
-        }
-
-    }
 
 
     public bool nextQuestion(){
