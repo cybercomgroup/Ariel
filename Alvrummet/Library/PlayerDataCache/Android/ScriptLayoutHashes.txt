@@ -1,6 +1,6 @@
 Android
 PlayerPath?
-/Users/hyttring/Documents/GitHub/LEAP-MOTION/Alvrummet/testapp.apk
+/Users/hyttring/Documents/GitHub/Ariel/testApp.apk
 SceneListBegin?
 Assets/Scenes/SampleScene.unity
 SceneListEnd?
