@@ -188,6 +188,7 @@
     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Oswald-Bold - OFL.txt" />
     <None Include="Assets\PolyToolkit\Shaders\PolyToolkitPbrBlendDoubleSided.shader" />
     <None Include="Assets\PolyToolkit\Internal\tbt\Brushes\Basic\WigglyGraphite\WigglyGraphiteDoubleSided.shader" />
+    <None Include="Assets\Resources\q.txt" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
     <None Include="Assets\PolyToolkit\ThirdParty\Noise\Shaders\Noise.cginc" />
     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
