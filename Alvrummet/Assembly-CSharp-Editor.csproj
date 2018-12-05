@@ -78,16 +78,16 @@
     <Compile Include="Assets\PolyToolkit\Editor\WarnIfManagerNotInScene.cs" />
     <None Include="Assets\Editor\Vuforia\CylinderTargetTextures\VuforiaMars_Images\authoringinfo.xml" />
     <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>/Users/hyttring/Documents/GitHub/Ariel/Alvrummet/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+      <HintPath>/Users/hyttring/Documents/GitHub/LEAP-MOTION/Alvrummet/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>/Users/hyttring/Documents/GitHub/Ariel/Alvrummet/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>/Users/hyttring/Documents/GitHub/LEAP-MOTION/Alvrummet/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>/Users/hyttring/Documents/GitHub/Ariel/Alvrummet/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>/Users/hyttring/Documents/GitHub/LEAP-MOTION/Alvrummet/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>/Users/hyttring/Documents/GitHub/Ariel/Alvrummet/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>/Users/hyttring/Documents/GitHub/LEAP-MOTION/Alvrummet/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>/Applications/Unity/Hub/Editor/2018.2.16f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -339,7 +339,7 @@
       <HintPath>/Applications/Unity/Hub/Editor/2018.2.16f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
-      <HintPath>/Users/hyttring/Documents/GitHub/Ariel/Alvrummet/Assets/PolyToolkit/ThirdParty/Json-NET-for-Unity/Assemblies/Standalone/Newtonsoft.Json.dll</HintPath>
+      <HintPath>/Users/hyttring/Documents/GitHub/LEAP-MOTION/Alvrummet/Assets/PolyToolkit/ThirdParty/Json-NET-for-Unity/Assemblies/Standalone/Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Advertisements">
       <HintPath>/Users/hyttring/Library/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
