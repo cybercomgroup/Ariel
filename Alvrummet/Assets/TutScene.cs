@@ -1,0 +1,58 @@
+﻿using System;
+using UnityEngine;
+using System.Collections;
+using UnityEngine.UI;
+
+public class TutScene
+{
+
+    GameObject tut1 = GameObject.Find("Tutor1");
+    GameObject tut2 = GameObject.Find("Tutor2");
+    GameObject tut3 = GameObject.Find("Tutor3");
+
+    ArrayList tutList = new ArrayList();
+
+    private int currentTutorial;
+
+    public bool tutEnd = false;
+
+    public TutScene()
+    {
+        tutList.Add(tut1);
+        tutList.Add(tut2);
+        tutList.Add(tut3);
+
+        currentTutorial = 0;
+    }
+
+
+
+    private void setAllHide()
+    {
+        for (int i = 0; i < 3; i++)
+        {
+            GameObject obj = tutList[i] as GameObject;
+            obj.SetActive(false);
+        }
+    }
+
+
+    public void showNextTut()
+    {
+        setAllHide();
+
+        if (currentTutorial < 3)
+        {
+            GameObject obj = tutList[currentTutorial] as GameObject;
+            obj.SetActive(false);
+        }
+        if (currentTutorial >= 3)
+        {
+            tutEnd = true;
+        }
+
+    }
+
+
+}
+
