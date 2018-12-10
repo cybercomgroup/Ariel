@@ -18,15 +18,11 @@ public class TouchController : MonoBehaviour {
     AudioSource audioJa;
     AudioSource audioNej;
 
-    TutScene tut;
 
     void Start () {
         game = new GameMode();
-        tut = new TutScene();
-
         game.correct.SetActive(false);
         game.wrong.SetActive(false);
-
         audioJa = GetComponents<AudioSource>()[0];
         audioNej = GetComponents<AudioSource>()[1];
     }
@@ -35,27 +31,19 @@ public class TouchController : MonoBehaviour {
        
         if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began)
         {
-
+            
 
 
             Ray ray = Camera.main.ScreenPointToRay(Input.GetTouch(0).position);
 
             if (Physics.Raycast(ray, out hit)){
-                if (tut.tutEnd)
-                {
-                    game.clickModel(hit.collider.name);
-                }
+                game.clickModel(hit.collider.name);
+             
             }
 
 
             if(EventSystem.current.IsPointerOverGameObject(Input.GetTouch(0).fingerId)){
-                if (tut.tutEnd)
-                {
-                    game.clickGUI(EventSystem.current.currentSelectedGameObject.name);
-                }
-                else{
-                    tut.showNextTut(EventSystem.current.currentSelectedGameObject.name);
-                }
+                game.clickGUI(EventSystem.current.currentSelectedGameObject.name);
             }
 
 
