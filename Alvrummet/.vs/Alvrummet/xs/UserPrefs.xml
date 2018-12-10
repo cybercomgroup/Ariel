@@ -1,6 +1,6 @@
 ﻿<Properties StartupConfiguration="{01B02D81-4F36-ADD0-AD7B-8854DF2665E6}|">
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/TouchController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/GameMode.cs">
     <Files>
       <File FileName="Assets/GameMode.cs" Line="31" Column="35" />
       <File FileName="Assets/TouchController.cs" Line="30" Column="18" />
