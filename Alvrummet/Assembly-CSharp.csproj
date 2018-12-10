@@ -147,7 +147,6 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
     <Compile Include="Assets\TouchController.cs" />
-    <Compile Include="Assets\TutScene.cs" />
     <None Include="Assets\PolyToolkit\Internal\tbt\Brushes\Basic\Bubbles\Bubbles.shader" />
     <None Include="Assets\Vuforia\Shaders\ColoredLines.shader" />
     <None Include="Assets\PolyToolkit\Internal\tbt\Brushes\Basic\SoftHighlighter\SoftHighlighter.shader" />
