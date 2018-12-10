@@ -6,7 +6,7 @@ using System.Timers;
 
 public class GameMode
 {
-    Question sn = new Question();
+    Question sn = Question.getInstance();
 
     GameObject questionImg = GameObject.Find("questionIMG");
     GameObject pointsDisp = GameObject.Find("pointsDisplay");

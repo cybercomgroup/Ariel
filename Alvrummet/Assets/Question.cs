@@ -6,11 +6,19 @@ public class Question{
     ArrayList questions = new ArrayList();
     int currQuestion = 0;
     int noQ;
+    static Question instance = null;
 
-    public Question(){
+    private Question(){
         loadQuestions();
 
         noQ = questions.Count;
+    }
+
+    public static Question getInstance(){
+        if(instance == null){
+            instance = new Question();
+        }
+        return instance;
     }
 
     public int getCurr(){
