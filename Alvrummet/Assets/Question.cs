@@ -7,11 +7,10 @@ public class Question{
     int currQuestion = 0;
     int noQ;
     static Question instance = null;
-    bool swedish = true;
+    private bool swedish = true;
 
     private Question(){
         loadQuestions();
-
         noQ = questions.Count;
     }
 
@@ -48,8 +47,6 @@ public class Question{
         TextAsset txtAsset = (TextAsset)Resources.Load("q");
         string s = txtAsset.text;
 
-
-
         foreach (string r in s.Split('\n'))
         {
             if (r.Equals("/END"))
@@ -84,4 +81,11 @@ public class Question{
 
     }
       
+    public void setLang(string s){
+        if(s.Equals("Swe"))
+            swedish = true;
+        if (s.Equals("Eng"))
+            swedish = false;
+
+    }
 }
