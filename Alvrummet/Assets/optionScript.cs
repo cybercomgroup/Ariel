@@ -8,7 +8,7 @@ public class optionScript : MonoBehaviour {
     // Use this for initialization
     GameObject menu;
 	void Start () {
-        menu = GameObject.Find("MenuSystemimage");
+        menu = GameObject.Find("MenuSystem");
         menu.SetActive(false);
 
     }
