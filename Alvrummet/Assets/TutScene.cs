@@ -22,9 +22,8 @@ public class TutScene
         tutList.Add(tut3);
 
         currentTutorial = 0;
-        setAllHide();
-        tut1.SetActive(true);
 
+        showNextTut();
     }
 
 
@@ -41,23 +40,19 @@ public class TutScene
 
     public void showNextTut(String s)
     {
-
+        setAllHide();
 
         if (s.Equals("Tutor1") || s.Equals("Tutor2") || s.Equals("Tutor3"))
         {
-            setAllHide();
 
-            if (currentTutorial < 2)
+            if (currentTutorial < 3 && !tutEnd)
             {
-
-                currentTutorial++;
                 GameObject obj = tutList[currentTutorial] as GameObject;
                 obj.SetActive(true);
-
+                currentTutorial++;
             }
-            else if (currentTutorial >= 2)
+            if (currentTutorial >= 3)
             {
-                setAllHide();
                 tutEnd = true;
             }
         }
