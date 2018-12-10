@@ -36,6 +36,10 @@ public class optionScript : MonoBehaviour {
                 {
                     Question.getInstance().setLang("Eng");
                 }
+                if (clicked.Equals("CloseMenuSystemButton"))
+                {
+                    menu.SetActive(false);
+                }
 
 
 
