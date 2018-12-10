@@ -7,6 +7,7 @@ public class Question{
     int currQuestion = 0;
     int noQ;
     static Question instance = null;
+    bool swedish = true;
 
     private Question(){
         loadQuestions();
@@ -28,13 +29,19 @@ public class Question{
     public string GetQ(){
         string l = questions[currQuestion] as string;
 
-        return l.Split('@')[0];
+        if(swedish)
+            return l.Split('@')[0];
+        else
+            return l.Split('@')[2];
     }
 
     public string GetA(){
         string l = questions[currQuestion] as string;
 
-        return l.Split('@')[1];
+        if(swedish)
+            return l.Split('@')[1];
+        else
+            return l.Split('@')[3];
     }
 
     public void loadQuestions(){
