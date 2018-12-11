@@ -36,11 +36,8 @@ public class Question{
 
     public string GetA(){
         string l = questions[currQuestion] as string;
-
-        if(swedish)
-            return l.Split('@')[1];
-        else
-            return l.Split('@')[3];
+        return l.Split('@')[1];
+       
     }
 
     public void loadQuestions(){
@@ -87,5 +84,10 @@ public class Question{
         if (s.Equals("Eng"))
             swedish = false;
 
+    }
+
+    public string getImg(){
+        string l = questions[currQuestion] as string;
+        return l.Split('@')[3];
     }
 }
