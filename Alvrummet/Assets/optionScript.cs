@@ -11,11 +11,12 @@ public class optionScript : MonoBehaviour {
     GameObject swePan;
 	void Start () {
         menu = GameObject.Find("MenuSystem");
-        menu.SetActive(false);
-        swePan = GameObject.Find("swePan");
-        engPan = GameObject.Find("engPan");
-        engPan.SetActive(false);
 
+        swePan = menu.transform.Find("SwedishButton").transform.Find("swePan").gameObject;
+        engPan = menu.transform.Find("EnglishButton").transform.Find("engPan").gameObject;
+        engPan.SetActive(false);
+        swePan.SetActive(true);
+        menu.SetActive(false);
     }
 
     // Update is called once per frame
@@ -30,6 +31,7 @@ public class optionScript : MonoBehaviour {
                 if (clicked.Equals("OptionButton"))
                 {
                     menu.SetActive(true);
+                    
                 }
 
                 if(clicked.Equals("SwedishButton"))

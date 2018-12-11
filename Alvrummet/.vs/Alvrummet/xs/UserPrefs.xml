@@ -6,8 +6,8 @@
       <File FileName="Assets/TouchController.cs" Line="68" Column="1" />
       <File FileName="Assets/Vuforia/Scripts/questions.csv" Line="1" Column="1" />
       <File FileName="Assets/Vuforia/Scripts/readCSV.cs" Line="10" Column="3" />
-      <File FileName="Assets/TutScene.cs" Line="17" Column="1" />
-      <File FileName="Assets/optionScript.cs" Line="11" Column="43" />
+      <File FileName="Assets/TutScene.cs" Line="16" Column="31" />
+      <File FileName="Assets/optionScript.cs" Line="16" Column="44" />
       <File FileName="Assets/Question.cs" Line="17" Column="21" />
     </Files>
   </MonoDevelop.Ide.Workbench>
