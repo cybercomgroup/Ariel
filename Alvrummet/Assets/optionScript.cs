@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 public class optionScript : MonoBehaviour {
 
@@ -9,9 +10,11 @@ public class optionScript : MonoBehaviour {
     GameObject menu;
     GameObject engPan;
     GameObject swePan;
+    GameObject tutText;
 	void Start () {
         menu = GameObject.Find("MenuSystem");
 
+        tutText = menu.transform.Find("RunTutorialButton").transform.Find("runtutorialText").gameObject;
         swePan = menu.transform.Find("SwedishButton").transform.Find("swePan").gameObject;
         engPan = menu.transform.Find("EnglishButton").transform.Find("engPan").gameObject;
         engPan.SetActive(false);
@@ -39,6 +42,7 @@ public class optionScript : MonoBehaviour {
                     Question.getInstance().setLang("Swe");
                     engPan.SetActive(false);
                     swePan.SetActive(true);
+                    tutText.GetComponent<Text>().text = "Kör tutorial";
                 }
 
                 if (clicked.Equals("EnglishButton"))
@@ -46,6 +50,7 @@ public class optionScript : MonoBehaviour {
                     Question.getInstance().setLang("Eng");
                     engPan.SetActive(true);
                     swePan.SetActive(false);
+                    tutText.GetComponent<Text>().text = "Run tutorial";
                 }
                 if (clicked.Equals("CloseMenuSystemButton"))
                 {
