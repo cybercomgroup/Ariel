@@ -1,5 +1,5 @@
 Klicka på badankan@badAnka@Click on the rubber duck@masthugget.jpg
-Klicka på ankan@anka@Click on the Duck@fisk.jpg
+Klicka på ankan@anka@Click on the Duck@fisk.jpeg
 /END
 Placera alla frågor före /END.
 Varje fråga separeras från sitt svar med @.
