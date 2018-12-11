@@ -7,9 +7,14 @@ public class optionScript : MonoBehaviour {
 
     // Use this for initialization
     GameObject menu;
+    GameObject engPan;
+    GameObject swePan;
 	void Start () {
         menu = GameObject.Find("MenuSystem");
         menu.SetActive(false);
+        swePan = GameObject.Find("swePan");
+        engPan = GameObject.Find("engPan");
+        engPan.SetActive(false);
 
     }
 
@@ -30,11 +35,15 @@ public class optionScript : MonoBehaviour {
                 if(clicked.Equals("SwedishButton"))
                 {
                     Question.getInstance().setLang("Swe");
+                    engPan.SetActive(false);
+                    swePan.SetActive(true);
                 }
 
                 if (clicked.Equals("EnglishButton"))
                 {
                     Question.getInstance().setLang("Eng");
+                    engPan.SetActive(true);
+                    swePan.SetActive(false);
                 }
                 if (clicked.Equals("CloseMenuSystemButton"))
                 {
