@@ -80,7 +80,7 @@ public class GameMode
     public void showQuestion(){
         questionImg.SetActive(true);
         questionImg.transform.GetChild(0).GetComponent<Text>().text = sn.GetQ();
-        questionImg.transform.GetChild(2).GetComponent<Image>().sprite = Resources.Load<Sprite>("masthugget");
+        questionImg.transform.GetChild(2).GetComponent<Image>().sprite = Resources.Load<Sprite>(sn.getImg());
     }
 
     public void getNextQuestion(){
