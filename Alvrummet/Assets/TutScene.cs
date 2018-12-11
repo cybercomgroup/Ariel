@@ -52,7 +52,7 @@ public class TutScene
                 GameObject obj = tutList[currentTutorial] as GameObject;
                 obj.SetActive(true);
             }
-            if (currentTutorial == 2)
+            else if (currentTutorial == 2)
             {
                 setAllHide();
                 tutEnd = true;
