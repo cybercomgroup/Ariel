@@ -8,28 +8,3 @@ Så för frågan "Klicka på anakan" är svaret anka.
 Klickbara modeller
 1. badAnka
 2. anka
-
-Klicka på Masthuggskyrkan
-
-fråga 1
-
-Hitta Domkyrkan
-"Det är din dom att hitta den stora kyrkan i centrum, här vilar stoftet av 20000 själar." 
-
-fråga 2
-
-Hitta fiskekyrkan
-"Hitta kyrkan som inte är en kyrka. Vill du be får du hitta annan mark, här ligger lukten av skaldjur och fisk stark." 
-
-fråga 3
-
-Hitta Masthugskyrkan
-
-"Hitta den stora kyrkan på toppet av ett berg omgiven av skog och bark"
-
-Fråga 4
-
-Hitta engelska kyrkan
-
-"Finn den lilla kyrkan som har sitt ursprung i landet av te och toast"
-
