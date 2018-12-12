@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+<Tracking>
+<ModelTarget name="AlvrummetV30"/>
+</Tracking>
+
+<Assembly name="AlvrummetV30s_assembly">
+<Part name="AlvrummetV30" translation="0 0 0" rotation="AD: 0 0 1 0"/>
+<EntryPoint name="viewpoint_0000" translation="1.49533 -0.415084 1.45162" rotation="AD: 0.999988174453384 -0.03325389630318055 0.1514351193258182 204.487">
+
+</EntryPoint>
+
+</Assembly>
+</QCARConfig>
