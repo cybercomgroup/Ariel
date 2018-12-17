@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+<Tracking>
+<ModelTarget name="MergedObjectV2"/>
+</Tracking>
+
+<Assembly name="MergedObjectV2s_assembly">
+<Part name="MergedObjectV2" translation="0 0 0" rotation="AD: 0 0 1 0"/>
+<EntryPoint name="viewpoint_0000" translation="-2.93647 -1.60263 5.68748" rotation="AD: 0.9999999999851493 0.0011140654267269114 -0.005011394532480508 205.066">
+
+</EntryPoint>
+
+</Assembly>
+</QCARConfig>
