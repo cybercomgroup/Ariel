@@ -210,6 +210,7 @@
     <None Include="Assets\PolyToolkit\Internal\tbt\Brushes\Shared\Shaders\Unlit.shader" />
     <None Include="Assets\PolyToolkit\Internal\tbt\Brushes\Basic\DoubleTaperedFlat\DiffuseNoTextureDoubleSided.shader" />
     <None Include="Assets\PolyToolkit\Internal\tbt\Shaders\Include\Particles.cginc" />
+    <None Include="Assets\StreamingAssets\Vuforia\MergedObjectV2.xml" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\LiberationSans - OFL.txt" />
     <None Include="Assets\PolyToolkit\Internal\tbt\Brushes\Basic\Fire\Fire.shader" />

@@ -79,6 +79,7 @@
     <None Include="Assets\Editor\Vuforia\AlvrummetV20\authoringinfo.xml" />
     <None Include="Assets\Editor\Vuforia\AlvrummetV3\authoringinfo.xml" />
     <None Include="Assets\Editor\Vuforia\CylinderTargetTextures\VuforiaMars_Images\authoringinfo.xml" />
+    <None Include="Assets\Editor\Vuforia\MergedObjectV2\authoringinfo.xml" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>/Users/hyttring/Documents/GitHub/Ariel/Alvrummet/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>

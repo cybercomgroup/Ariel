@@ -1,5 +1,6 @@
-Klicka på badankan@badAnka@Click on the rubber duck@masthugget
-Klicka på ankan@anka@Click on the Duck@fisk
+Hitta den stora kyrkan på toppet av ett berg omgiven av skog och bark@Masthugget@Find the great church on the top of a mountain surrounded by a woods and plantain@masthugget
+Hitta kyrkan som inte är en kyrka. Vill du be får du hitta annan mark, här ligger lukten av skaldjur och fisk stark.@FiskarKyrkan@Find the körka, that is not a kyrka. If you want to pray you can meet other lands, here is the smell of seafood and fish at hands.@fisk
+Det är din dom att hitta den stora kyrkan i centrum, här vilar stoftet av 20000 själar@Domkyrkan@It is your judgment to find the great church in the center of town. Here lies the dust of 20000 dead.@domkyrka
 /END
 Placera alla frågor före /END.
 Varje fråga separeras från sitt svar med @.
@@ -8,3 +9,11 @@ Så för frågan "Klicka på anakan" är svaret anka.
 Klickbara modeller
 1. badAnka
 2. anka
+
+
+
+Objekts to add: 
+
+"Finn den lilla kyrkan som har sitt ursprung i landet av te och toast"
+
+"Find the little church that originated in the country of tea and toast"
